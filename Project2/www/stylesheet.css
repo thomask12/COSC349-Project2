@@ -1,0 +1,58 @@
+body{
+    margin: auto;
+    width: auto;
+    height: auto;
+    text-align: center;
+    background-color: #F2F1EF;
+    color: #0F1026;
+}
+h1 {
+    text-align: center;
+}
+h2{
+    margin: 0;
+}
+#started {
+    text-align: center;
+}
+#cards {
+    display: none;
+}
+#deck {
+    display: none;
+    text-align: center;
+}
+#deck img{
+    width: 6%;
+}
+#secondPlayer {
+    display: none;
+}
+li {
+    text-align: center;
+    display: inline;
+    height: auto;
+    margin: 0 2px 0 2px;
+}
+li img {
+    width: 6%;
+}
+#avail li img{
+    transition: transform .2s;
+}
+#avail li img:hover {
+    transform: scale(1.12);
+}
+#pickMessage{
+    position: fixed;
+    top: 40%;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid transparent;
+    color: #0F1026;
+    background-color: #D8C99C;
+    border-radius: 2px;
+    display: none;
+}
+
+

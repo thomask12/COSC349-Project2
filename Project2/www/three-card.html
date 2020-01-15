@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Three Card Game</title>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="determineCards.js"></script>
+    <script src="cardOperations.js"></script>
+    <script src="displayAlerts.js"></script>
+    <script src="computerPlay.js"></script>
+    <script src="player1Play.js"></script>
+    <script src="saveMoves.js"></script>
+    <script src="pickingCards.js"></script>
+    <script src="startGame.js"></script>
+    <script src="playGame.js"></script>
+    <script src="endGame.js"></script>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+<h1>3 Card</h1>
+<div id="started">
+<p>Press start when you are ready to begin:</p>
+    <button id="start">Start</button>
+</div>
+<div id="cards">
+    <h3>Choose your top 3 cards</h3>
+    <div id="pickMessage"></div>
+    <div id="secondPlayer"><h2>Player2</h2><ul id="two"></ul></div>
+    <div id="deck"><img src='images/deck.jpg' alt="deck"></div>
+    <ul id='one'></ul><ul id="avail"></ul>
+</div>
+</body>
+</html>
